@@ -1,6 +1,10 @@
 MovieFinder.Android.SplashScreen;moviefinder.android.SplashScreen
 MovieFinder.Android.Views.DetailView;moviefinder.android.views.DetailView
 MovieFinder.Android.Views.FirstView;moviefinder.android.views.FirstView
+Cirrious.MvvmCross.Droid.Views.MvxActivity;cirrious.mvvmcross.droid.views.MvxActivity
+Cirrious.MvvmCross.Droid.Simple.MvxSimpleBindingActivity;cirrious.mvvmcross.droid.simple.MvxSimpleBindingActivity
+Cirrious.MvvmCross.Droid.Views.MvxSplashScreenActivity;cirrious.mvvmcross.droid.views.MvxSplashScreenActivity
+Cirrious.MvvmCross.Droid.Views.MvxTabActivity;cirrious.mvvmcross.droid.views.MvxTabActivity
 Cirrious.CrossCore.Droid.MvxJavaContainer;cirrious.crosscore.droid.MvxJavaContainer
 Cirrious.CrossCore.Droid.MvxJavaContainer`1;cirrious.crosscore.droid.MvxJavaContainer_1
 Cirrious.CrossCore.Droid.MvxReplaceableJavaContainer;cirrious.crosscore.droid.MvxReplaceableJavaContainer
@@ -26,7 +30,3 @@ Cirrious.MvvmCross.Binding.Droid.Views.MvxTimePicker;cirrious.mvvmcross.binding.
 Cirrious.MvvmCross.Binding.Droid.Views.MvxRelativeLayout;cirrious.mvvmcross.binding.droid.views.MvxRelativeLayout
 Cirrious.MvvmCross.Binding.Droid.Views.MvxFrameLayout;cirrious.mvvmcross.binding.droid.views.MvxFrameLayout
 Cirrious.MvvmCross.Binding.Droid.Views.MvxTableLayout;cirrious.mvvmcross.binding.droid.views.MvxTableLayout
-Cirrious.MvvmCross.Droid.Views.MvxActivity;cirrious.mvvmcross.droid.views.MvxActivity
-Cirrious.MvvmCross.Droid.Simple.MvxSimpleBindingActivity;cirrious.mvvmcross.droid.simple.MvxSimpleBindingActivity
-Cirrious.MvvmCross.Droid.Views.MvxSplashScreenActivity;cirrious.mvvmcross.droid.views.MvxSplashScreenActivity
-Cirrious.MvvmCross.Droid.Views.MvxTabActivity;cirrious.mvvmcross.droid.views.MvxTabActivity

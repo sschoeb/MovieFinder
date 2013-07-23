@@ -7,9 +7,7 @@
     <AssemblyPart x:Name="Cirrious.MvvmCross.Localization" Source="Cirrious.MvvmCross.Localization.dll" />
     <AssemblyPart x:Name="Cirrious.MvvmCross.WindowsPhone" Source="Cirrious.MvvmCross.WindowsPhone.dll" />
     <AssemblyPart x:Name="MovieFinder.Core" Source="MovieFinder.Core.dll" />
-    <AssemblyPart x:Name="System.Net.Http" Source="System.Net.Http.dll" />
-    <AssemblyPart x:Name="Newtonsoft.Json" Source="Newtonsoft.Json.dll" />
+    <AssemblyPart x:Name="Cirrious.MvvmCross.Plugins.Sqlite" Source="Cirrious.MvvmCross.Plugins.Sqlite.dll" />
     <AssemblyPart x:Name="System.Windows.Interactivity" Source="System.Windows.Interactivity.dll" />
-    <AssemblyPart x:Name="System.Net.Http.Primitives" Source="System.Net.Http.Primitives.dll" />
   </Deployment.Parts>
 </Deployment>

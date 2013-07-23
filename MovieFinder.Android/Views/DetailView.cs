@@ -7,9 +7,9 @@ namespace MovieFinder.Android.Views
     [Activity(Label = "DetailView")]
     public class DetailView : MvxActivity
     {
-        protected override void OnCreate(Bundle bundle)
+        protected override void OnViewModelSet()
         {
-            base.OnCreate(bundle);
+            base.OnViewModelSet();
             SetContentView(Resource.Layout.DetailView);
         }
     }

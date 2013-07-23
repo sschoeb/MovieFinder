@@ -12,6 +12,8 @@ namespace MovieFinder.Core
                 .RegisterAsLazySingleton();
 				
             RegisterAppStart<ViewModels.FirstViewModel>();
+
+            System.Linq.Expressions.Expression.Constant(5);
         }
     }
 }

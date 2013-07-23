@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="MovieFinder.Android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" android:versionCode="1" android:versionName="Gurke" package="MovieFinder.Android">
   <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="15" />
-  <application android:theme="@android:style/Theme.Holo.Light" android:name="mono.android.app.Application" android:debuggable="true">
+  <application android:theme="@android:style/Theme.Holo.Light" android:label="MovieFinder" android:name="mono.android.app.Application" android:debuggable="true">
     <activity android:icon="@drawable/icon" android:label="MovieFinder.Android" android:noHistory="true" android:theme="@style/Theme.Splash" android:name="moviefinder.android.SplashScreen">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

@@ -49,49 +49,61 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Cirrious.CrossCore">
-      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.0.9-beta3\lib\MonoAndroid16\Cirrious.CrossCore.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.0.10\lib\MonoAndroid16\Cirrious.CrossCore.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.CrossCore.Droid">
-      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.0.9-beta3\lib\MonoAndroid16\Cirrious.CrossCore.Droid.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.0.10\lib\MonoAndroid16\Cirrious.CrossCore.Droid.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross">
-      <HintPath>..\packages\MvvmCross.HotTuna.StarterPack.3.0.9-beta3\lib\MonoAndroid16\Cirrious.MvvmCross.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.0.10\lib\MonoAndroid16\Cirrious.MvvmCross.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross.Binding">
-      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.0.9-beta3\lib\MonoAndroid16\Cirrious.MvvmCross.Binding.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.0.10\lib\MonoAndroid16\Cirrious.MvvmCross.Binding.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross.Binding.Droid">
-      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.0.9-beta3\lib\MonoAndroid16\Cirrious.MvvmCross.Binding.Droid.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.0.10\lib\MonoAndroid16\Cirrious.MvvmCross.Binding.Droid.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross.Droid">
-      <HintPath>..\packages\MvvmCross.HotTuna.StarterPack.3.0.9-beta3\lib\MonoAndroid16\Cirrious.MvvmCross.Droid.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.0.10\lib\MonoAndroid16\Cirrious.MvvmCross.Droid.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross.Localization">
-      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.0.9-beta3\lib\MonoAndroid16\Cirrious.MvvmCross.Localization.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.0.10\lib\MonoAndroid16\Cirrious.MvvmCross.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Json">
+      <HintPath>..\packages\MvvmCross.HotTuna.Plugin.Json.3.0.10\lib\MonoAndroid16\Cirrious.MvvmCross.Plugins.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Sqlite, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MvvmCross.HotTuna.Plugin.Sqlite.3.0.10\lib\MonoAndroid16\Cirrious.MvvmCross.Plugins.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Sqlite.Droid">
+      <HintPath>..\packages\MvvmCross.HotTuna.Plugin.Sqlite.3.0.10\lib\MonoAndroid16\Cirrious.MvvmCross.Plugins.Sqlite.Droid.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="mscorlib" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\MvvmCross.HotTuna.Plugin.Json.3.0.10\lib\MonoAndroid16\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Linq.Expressions">
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Net">
-      <HintPath>..\packages\MvvmCross.PortableSupport.3.0.9-beta3\lib\MonoAndroid16\System.Net.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.PortableSupport.3.0.10\lib\MonoAndroid16\System.Net.dll</HintPath>
     </Reference>
     <Reference Include="System.Windows">
-      <Private>True</Private>
-      <HintPath>..\packages\MvvmCross.PortableSupport.3.0.9-beta3\lib\MonoAndroid16\System.Windows.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.PortableSupport.3.0.10\lib\MonoAndroid16\System.Windows.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Serialization">
-      <Private>True</Private>
-      <HintPath>..\packages\MvvmCross.PortableSupport.3.0.9-beta3\lib\MonoAndroid16\System.Xml.Serialization.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.PortableSupport.3.0.10\lib\MonoAndroid16\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <ProjectReference Include="..\MovieFinder.Core\MovieFinder.Core.csproj">
-      <Project>{39F8077F-58D9-4DC1-8C00-DB9D3D50C9F3}</Project>
-      <Name>MoviewFinder.Core</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bootstrap\JsonPluginBootstrap.cs" />
+    <Compile Include="Bootstrap\SqlitePluginBootstrap.cs" />
     <Compile Include="DebugTrace.cs" />
     <Compile Include="LinkerPleaseInclude.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
@@ -103,11 +115,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AboutAssets.txt" />
-    <None Include="packages.config" />
-    <AndroidResource Include="Resources\Layout\SplashScreen.axml" />
     <AndroidResource Include="Resources\Layout\FirstView.axml" />
     <AndroidResource Include="Resources\Layout\MovieItemTemplate.axml" />
     <AndroidResource Include="Resources\Layout\DetailView.axml" />
+    <None Include="packages.config" />
+    <AndroidResource Include="Resources\Layout\SplashScreen.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Values\Strings.xml" />
@@ -116,12 +128,19 @@
     <AndroidResource Include="Resources\Drawable\Icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Properties\AndroidManifest.xml" />
+    <Content Include="Properties\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <AndroidResource Include="Resources\Values\SplashStyle.xml" />
     <AndroidResource Include="Resources\Values\MvxBindingAttributes.xml" />
     <AndroidResource Include="Resources\Drawable\splash.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\MovieFinder.Core\MovieFinder.Core.csproj">
+      <Project>{39f8077f-58d9-4dc1-8c00-db9d3d50c9f3}</Project>
+      <Name>MovieFinder.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
      Other similar extension points exist, see Microsoft.Common.targets.

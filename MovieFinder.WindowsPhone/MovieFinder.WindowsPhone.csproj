@@ -93,6 +93,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Bootstrap\JsonPluginBootstrap.cs" />
+    <Compile Include="Bootstrap\SqlitePluginBootstrap.cs" />
     <Compile Include="DebugTrace.cs" />
     <Compile Include="LocalizedStrings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -111,10 +113,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
-    <Page Include="Views\FirstView.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -153,26 +151,46 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Cirrious.CrossCore">
-      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.0.9-beta3\lib\sl4-wp71\Cirrious.CrossCore.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.0.10\lib\sl4-wp71\Cirrious.CrossCore.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.CrossCore.WindowsPhone">
-      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.0.9-beta3\lib\sl4-wp71\Cirrious.CrossCore.WindowsPhone.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.0.10\lib\sl4-wp71\Cirrious.CrossCore.WindowsPhone.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross">
-      <HintPath>..\packages\MvvmCross.HotTuna.StarterPack.3.0.9-beta3\lib\sl4-wp71\Cirrious.MvvmCross.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.0.10\lib\sl4-wp71\Cirrious.MvvmCross.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross.Localization">
-      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.0.9-beta3\lib\sl4-wp71\Cirrious.MvvmCross.Localization.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.0.10\lib\sl4-wp71\Cirrious.MvvmCross.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Json">
+      <HintPath>..\packages\MvvmCross.HotTuna.Plugin.Json.3.0.10\lib\sl4-wp71\Cirrious.MvvmCross.Plugins.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Sqlite, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MvvmCross.HotTuna.Plugin.Sqlite.3.0.10\lib\sl4-wp71\Cirrious.MvvmCross.Plugins.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Sqlite.WindowsPhone">
+      <HintPath>..\packages\MvvmCross.HotTuna.Plugin.Sqlite.3.0.10\lib\sl4-wp71\Cirrious.MvvmCross.Plugins.Sqlite.WindowsPhone.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross.WindowsPhone">
-      <HintPath>..\packages\MvvmCross.HotTuna.StarterPack.3.0.9-beta3\lib\sl4-wp71\Cirrious.MvvmCross.WindowsPhone.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.0.10\lib\sl4-wp71\Cirrious.MvvmCross.WindowsPhone.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\MovieFinder.Core\MovieFinder.Core.csproj">
       <Project>{39F8077F-58D9-4DC1-8C00-DB9D3D50C9F3}</Project>
       <Name>MovieFinder.Core</Name>
     </ProjectReference>
+    <Reference Include="Community.CsharpSqlite.WP7">
+      <HintPath>..\packages\MvvmCross.HotTuna.Plugin.Sqlite.3.0.10\lib\sl4-wp71\Community.CsharpSqlite.WP7.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\MvvmCross.HotTuna.Plugin.Json.3.0.10\lib\sl4-wp71\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Views\FirstView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
@@ -184,5 +202,4 @@
   </Target>
   -->
   <ProjectExtensions />
-  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.7\tools\Microsoft.Bcl.Build.targets" />
 </Project>

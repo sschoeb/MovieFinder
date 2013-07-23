@@ -1,4 +1,5 @@
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Windows.Input;
 using Cirrious.MvvmCross.ViewModels;
 using MovieFinder.Core.Model;
@@ -9,14 +10,14 @@ namespace MovieFinder.Core.ViewModels
     public class FirstViewModel
         : MvxViewModel
     {
-        private readonly IRottenTomatoService _rottenTomatoService;
+        private readonly IRottenTomatoRestService _rottenTomatoRestService;
 
-        public FirstViewModel(IRottenTomatoService rottenTomatoService)
+        public FirstViewModel(IRottenTomatoRestService rottenTomatoRestService)
         {
-            _rottenTomatoService = rottenTomatoService;
+            _rottenTomatoRestService = rottenTomatoRestService;
 
             SearchCommand = new MvxCommand(SearchCommandExecute);
-            ShowDetailCommand = new MvxCommand<Movie>(movie => ShowViewModel<DetailsViewModel>(new { movieId = movie.id }));
+            ShowDetailCommand = new MvxCommand<Movie>(movie => ShowViewModel<DetailViewModel>(new { movieId = movie.id }));
         }
 
         private string _keyword;
@@ -36,10 +37,13 @@ namespace MovieFinder.Core.ViewModels
         public ICommand SearchCommand { get; private set; }
         public ICommand ShowDetailCommand { get; private set; }
 
-        private async void SearchCommandExecute()
+        private void SearchCommandExecute()
         {
-            RootObject data = await _rottenTomatoService.SearchMoviesAsync(Keyword);
-            Movies = new ObservableCollection<Movie>(data.movies);
+            _rottenTomatoRestService.SearchMovies(Keyword, data =>
+                {
+                    Debug.WriteLine("Got new Movies" + data.movies.Count);
+                    Movies = new ObservableCollection<Movie>(data.movies);
+                });
         }
     }
 }

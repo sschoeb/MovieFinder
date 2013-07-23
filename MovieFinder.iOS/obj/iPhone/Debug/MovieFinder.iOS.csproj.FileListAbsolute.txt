@@ -11,14 +11,9 @@ C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\MovieFinder.Core.dll
 C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\System.Net.dll
 C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\System.Windows.dll
 C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\System.Xml.Serialization.dll
-C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\System.Net.Http.dll
-C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
-C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\System.Net.Http.Primitives.dll
+C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\Cirrious.MvvmCross.Plugins.Sqlite.dll
 C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\MovieFinder.Core.pdb
 C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\MovieFinder.Core.dll.mdb
-C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\System.Net.Http.xml
-C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\Newtonsoft.Json.xml
-C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\System.Net.Http.Primitives.xml
 C:\Projects\MovieFinder\MovieFinder.iOS\obj\iPhone\Debug\MovieFinder.iOS.csprojResolveAssemblyReference.cache
 C:\Projects\MovieFinder\MovieFinder.iOS\obj\iPhone\Debug\MovieFinderiOS.exe
 C:\Projects\MovieFinder\MovieFinder.iOS\obj\iPhone\Debug\MovieFinderiOS.pdb
