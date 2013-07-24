@@ -5,9 +5,13 @@
     <AssemblyPart x:Name="Cirrious.CrossCore.WindowsPhone" Source="Cirrious.CrossCore.WindowsPhone.dll" />
     <AssemblyPart x:Name="Cirrious.MvvmCross" Source="Cirrious.MvvmCross.dll" />
     <AssemblyPart x:Name="Cirrious.MvvmCross.Localization" Source="Cirrious.MvvmCross.Localization.dll" />
-    <AssemblyPart x:Name="Cirrious.MvvmCross.WindowsPhone" Source="Cirrious.MvvmCross.WindowsPhone.dll" />
-    <AssemblyPart x:Name="MovieFinder.Core" Source="MovieFinder.Core.dll" />
+    <AssemblyPart x:Name="Cirrious.MvvmCross.Plugins.Json" Source="Cirrious.MvvmCross.Plugins.Json.dll" />
     <AssemblyPart x:Name="Cirrious.MvvmCross.Plugins.Sqlite" Source="Cirrious.MvvmCross.Plugins.Sqlite.dll" />
+    <AssemblyPart x:Name="Cirrious.MvvmCross.Plugins.Sqlite.WindowsPhone" Source="Cirrious.MvvmCross.Plugins.Sqlite.WindowsPhone.dll" />
+    <AssemblyPart x:Name="Cirrious.MvvmCross.WindowsPhone" Source="Cirrious.MvvmCross.WindowsPhone.dll" />
+    <AssemblyPart x:Name="Community.CsharpSqlite.WP7" Source="Community.CsharpSqlite.WP7.dll" />
+    <AssemblyPart x:Name="MovieFinder.Core" Source="MovieFinder.Core.dll" />
+    <AssemblyPart x:Name="Newtonsoft.Json" Source="Newtonsoft.Json.dll" />
     <AssemblyPart x:Name="System.Windows.Interactivity" Source="System.Windows.Interactivity.dll" />
   </Deployment.Parts>
 </Deployment>

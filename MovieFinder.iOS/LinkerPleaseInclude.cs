@@ -38,11 +38,6 @@ namespace MovieFinder.iOS
             label.Text = label.Text + "";
         }
 
-        public void Include(UIImageView imageView)
-        {
-            imageView.Image = new UIImage(imageView.Image);
-        }
-
         public void Include(UIDatePicker date)
         {
             date.Date = date.Date.AddSeconds(1);

@@ -6,12 +6,15 @@ C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\Cirrious.MvvmCross.Bind
 C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\Cirrious.MvvmCross.Binding.Touch.dll
 C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\Cirrious.MvvmCross.dll
 C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\Cirrious.MvvmCross.Localization.dll
+C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\Cirrious.MvvmCross.Plugins.Json.dll
+C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\Cirrious.MvvmCross.Plugins.Sqlite.dll
+C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\Cirrious.MvvmCross.Plugins.Sqlite.Touch.dll
 C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\Cirrious.MvvmCross.Touch.dll
 C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\MovieFinder.Core.dll
+C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
 C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\System.Net.dll
 C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\System.Windows.dll
 C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\System.Xml.Serialization.dll
-C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\Cirrious.MvvmCross.Plugins.Sqlite.dll
 C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\MovieFinder.Core.pdb
 C:\Projects\MovieFinder\MovieFinder.iOS\bin\iPhone\Debug\MovieFinder.Core.dll.mdb
 C:\Projects\MovieFinder\MovieFinder.iOS\obj\iPhone\Debug\MovieFinder.iOS.csprojResolveAssemblyReference.cache

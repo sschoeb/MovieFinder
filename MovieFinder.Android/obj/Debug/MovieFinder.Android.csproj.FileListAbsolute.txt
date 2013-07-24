@@ -10,11 +10,14 @@ C:\Projects\MovieFinder\MovieFinder.Android\bin\Debug\Cirrious.MvvmCross.Binding
 C:\Projects\MovieFinder\MovieFinder.Android\bin\Debug\Cirrious.MvvmCross.dll
 C:\Projects\MovieFinder\MovieFinder.Android\bin\Debug\Cirrious.MvvmCross.Droid.dll
 C:\Projects\MovieFinder\MovieFinder.Android\bin\Debug\Cirrious.MvvmCross.Localization.dll
+C:\Projects\MovieFinder\MovieFinder.Android\bin\Debug\Cirrious.MvvmCross.Plugins.Json.dll
+C:\Projects\MovieFinder\MovieFinder.Android\bin\Debug\Cirrious.MvvmCross.Plugins.Sqlite.dll
+C:\Projects\MovieFinder\MovieFinder.Android\bin\Debug\Cirrious.MvvmCross.Plugins.Sqlite.Droid.dll
 C:\Projects\MovieFinder\MovieFinder.Android\bin\Debug\MovieFinder.Core.dll
+C:\Projects\MovieFinder\MovieFinder.Android\bin\Debug\Newtonsoft.Json.dll
 C:\Projects\MovieFinder\MovieFinder.Android\bin\Debug\System.Net.dll
 C:\Projects\MovieFinder\MovieFinder.Android\bin\Debug\System.Windows.dll
 C:\Projects\MovieFinder\MovieFinder.Android\bin\Debug\System.Xml.Serialization.dll
-C:\Projects\MovieFinder\MovieFinder.Android\bin\Debug\Cirrious.MvvmCross.Plugins.Sqlite.dll
 C:\Projects\MovieFinder\MovieFinder.Android\bin\Debug\MovieFinder.Core.pdb
 C:\Projects\MovieFinder\MovieFinder.Android\bin\Debug\MovieFinder.Core.dll.mdb
 C:\Projects\MovieFinder\MovieFinder.Android\obj\Debug\MovieFinder.Android.csprojResolveAssemblyReference.cache
@@ -32,6 +35,3 @@ C:\Projects\MovieFinder\MovieFinder.Android\obj\Debug\res\values\mvxbindingattri
 C:\Projects\MovieFinder\MovieFinder.Android\obj\Debug\res\drawable\splash.png
 C:\Projects\MovieFinder\MovieFinder.Android\obj\Debug\R.cs.flag
 C:\Projects\MovieFinder\MovieFinder.Android\obj\Debug\uploadflags.txt
-C:\Projects\MovieFinder\MovieFinder.Android\bin\Debug\Cirrious.MvvmCross.Plugins.Json.dll
-C:\Projects\MovieFinder\MovieFinder.Android\bin\Debug\Cirrious.MvvmCross.Plugins.Sqlite.Droid.dll
-C:\Projects\MovieFinder\MovieFinder.Android\bin\Debug\Newtonsoft.Json.dll

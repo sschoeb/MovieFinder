@@ -29,7 +29,7 @@ namespace MovieFinder.iOS.Views
             searchButton.SetTitle("Search", UIControlState.Normal);
             Add(searchButton);
 
-            var source = new MvxStandardTableViewSource(tableView, "TitleText Name;");
+            var source = new MvxStandardTableViewSource(tableView, "TitleText title;");
 
             var bindingSet = this.CreateBindingSet<FirstView, FirstViewModel>();
             bindingSet.Bind(tableView).To(viewModel => viewModel.Movies);
