@@ -23,6 +23,6 @@ namespace MovieFinder.Core.Model
         public object runtime { get; set; }
         public string synopsis { get; set; }
         public string title { get; set; }
-        public int year { get; set; }
+        public string year { get; set; }
     }
 }

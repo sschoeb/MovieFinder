@@ -6,6 +6,6 @@ C:\Projects\MovieFinder\MovieFinder.Core\bin\Debug\Cirrious.MvvmCross.Localizati
 C:\Projects\MovieFinder\MovieFinder.Core\bin\Debug\Cirrious.MvvmCross.Plugins.Json.dll
 C:\Projects\MovieFinder\MovieFinder.Core\bin\Debug\Cirrious.MvvmCross.Plugins.Sqlite.dll
 C:\Projects\MovieFinder\MovieFinder.Core\bin\Debug\Newtonsoft.Json.dll
-C:\Projects\MovieFinder\MovieFinder.Core\obj\Debug\MovieFinder.Core.csprojResolveAssemblyReference.cache
 C:\Projects\MovieFinder\MovieFinder.Core\obj\Debug\MovieFinder.Core.dll
 C:\Projects\MovieFinder\MovieFinder.Core\obj\Debug\MovieFinder.Core.pdb
+C:\Projects\MovieFinder\MovieFinder.Core\obj\Debug\MovieFinder.Core.csprojResolveAssemblyReference.cache

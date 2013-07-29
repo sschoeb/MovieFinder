@@ -1,5 +1,4 @@
 using System;
-using System.Diagnostics;
 using System.IO;
 using System.Net;
 using Cirrious.CrossCore.Platform;
@@ -7,7 +6,7 @@ using MovieFinder.Core.Model;
 
 namespace MovieFinder.Core.Services
 {
-    public class RottenTomatoRestService : IRottenTomatoRestService
+    public class RottenTomatoRestService
     {
         private readonly IMvxJsonConverter _jsonConverter;
         private const string SearchUrl = "http://api.rottentomatoes.com/api/public/v1.0/movies.json?apikey={0}&q={1}";

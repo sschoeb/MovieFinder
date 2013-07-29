@@ -3,12 +3,12 @@ using MovieFinder.Core.Model;
 
 namespace MovieFinder.Core.Services
 {
-    public class CachedRottenTomatoService : ICachedRottenTomatoService
+    public class CachedRottenTomatoService
     {
-        private readonly IDatabaseService _databaseService;
-        private readonly IRottenTomatoRestService _rottenTomatoRestService;
+        private readonly DatabaseService _databaseService;
+        private readonly RottenTomatoRestService _rottenTomatoRestService;
 
-        public CachedRottenTomatoService(IDatabaseService databaseService, IRottenTomatoRestService rottenTomatoRestService)
+        public CachedRottenTomatoService(DatabaseService databaseService, RottenTomatoRestService rottenTomatoRestService)
         {
             _databaseService = databaseService;
             _rottenTomatoRestService = rottenTomatoRestService;

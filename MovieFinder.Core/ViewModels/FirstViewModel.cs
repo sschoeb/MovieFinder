@@ -10,9 +10,9 @@ namespace MovieFinder.Core.ViewModels
     public class FirstViewModel
         : MvxViewModel
     {
-        private readonly IRottenTomatoRestService _rottenTomatoRestService;
+        private readonly RottenTomatoRestService _rottenTomatoRestService;
 
-        public FirstViewModel(IRottenTomatoRestService rottenTomatoRestService)
+        public FirstViewModel(RottenTomatoRestService rottenTomatoRestService)
         {
             _rottenTomatoRestService = rottenTomatoRestService;
 

@@ -50,9 +50,7 @@
     <Compile Include="Model\RootObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\CachedRottenTomatoService.cs" />
-    <Compile Include="Services\ICachedRottenTomatoService.cs" />
-    <Compile Include="Services\IDatabaseService.cs" />
-    <Compile Include="Services\IRottenTomatoRestService.cs" />
+    <Compile Include="Services\DatabaseService.cs" />
     <Compile Include="Services\RottenTomatoRestService.cs" />
     <Compile Include="ViewModels\DetailViewModel.cs" />
     <Compile Include="ViewModels\FirstViewModel.cs" />

@@ -8,12 +8,10 @@ namespace MovieFinder.Core
         {
             CreatableTypes()
                 .EndingWith("Service")
-                .AsInterfaces()
+                .AsTypes()
                 .RegisterAsLazySingleton();
 				
             RegisterAppStart<ViewModels.FirstViewModel>();
-
-            System.Linq.Expressions.Expression.Constant(5);
         }
     }
 }
