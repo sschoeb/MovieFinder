@@ -16,15 +16,24 @@ namespace MovieFinder.Core.ViewModels
         {
             _rottenTomatoRestService = rottenTomatoRestService;
 
-            SearchCommand = new MvxCommand(SearchCommandExecute);
+            SearchCommand = new MvxCommand(SearchCommandExecute, SearchCommandCanExecute);
             ShowDetailCommand = new MvxCommand<Movie>(movie => ShowViewModel<DetailViewModel>(new { movieId = movie.id }));
+        }
+
+        private bool SearchCommandCanExecute()
+        {
+            return !string.IsNullOrEmpty(Keyword);
         }
 
         private string _keyword;
         public string Keyword
         {
             get { return _keyword; }
-            set { _keyword = value; RaisePropertyChanged(() => Keyword); }
+            set
+            {
+                _keyword = value; RaisePropertyChanged(() => Keyword);
+                ((MvxCommand)SearchCommand).RaiseCanExecuteChanged();
+            }
         }
 
         private ObservableCollection<Movie> _movies;
