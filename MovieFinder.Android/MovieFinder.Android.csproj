@@ -112,9 +112,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AboutAssets.txt" />
-    <AndroidResource Include="Resources\Layout\FirstView.axml" />
+    <AndroidResource Include="Resources\Layout\FirstView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <AndroidResource Include="Resources\Layout\MovieItemTemplate.axml" />
-    <AndroidResource Include="Resources\Layout\DetailView.axml" />
+    <AndroidResource Include="Resources\Layout\DetailView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <None Include="packages.config" />
     <AndroidResource Include="Resources\Layout\SplashScreen.axml" />
   </ItemGroup>

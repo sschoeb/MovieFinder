@@ -1,1 +1,0 @@
-<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" local:MvxBind="Text id" xmlns:local="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" />
