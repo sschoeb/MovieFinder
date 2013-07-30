@@ -10,22 +10,30 @@ namespace MovieFinder.iOS.Views
     {
         public override void ViewDidLoad()
         {
-            var textViewTitle = new UITextField(new RectangleF(10, 100, 300, 30));
+			View = new UIView ();
+			View.BackgroundColor = UIColor.White;
+
+			base.ViewDidLoad ();
+
+			var textViewTitle = new UILabel(new RectangleF(10, 10, 300, 30));
+			textViewTitle.Text = "Title";
             Add(textViewTitle);
 
-            var textViewTitleValue = new UITextView(new RectangleF(40, 100, 300, 30));
+			var textViewTitleValue = new UILabel(new RectangleF(10, 32, 300, 30));
             Add(textViewTitleValue);
 
-            var textViewYear = new UITextField(new RectangleF(70, 100, 300, 30));
+			var textViewYear = new UILabel(new RectangleF(10, 80,300, 30));
+			textViewYear.Text = "Year";
             Add(textViewYear);
 
-            var textViewYearValue = new UITextView(new RectangleF(100, 100, 300, 30));
+			var textViewYearValue = new UILabel(new RectangleF(10, 112, 300, 30));
             Add(textViewYearValue);
 
-            var textViewSynopsis = new UITextField(new RectangleF(130, 100, 300, 30));
+            var textViewSynopsis = new UILabel(new RectangleF(10, 160, 300, 30));
+			textViewSynopsis.Text = "Synopsis:";
             Add(textViewSynopsis);
 
-            var textViewSynopsisValue = new UITextView(new RectangleF(160, 100, 300, 30));
+			var textViewSynopsisValue = new UILabel(new RectangleF(10, 192, 300, 30));
             Add(textViewSynopsisValue);
 
 
