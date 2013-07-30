@@ -1,5 +1,4 @@
 using System.Collections.ObjectModel;
-using System.Diagnostics;
 using System.Windows.Input;
 using Cirrious.MvvmCross.ViewModels;
 using MovieFinder.Core.Model;
@@ -50,7 +49,6 @@ namespace MovieFinder.Core.ViewModels
         {
             _rottenTomatoRestService.SearchMovies(Keyword, data =>
                 {
-                    Debug.WriteLine("Got new Movies" + data.movies.Count);
                     Movies = new ObservableCollection<Movie>(data.movies);
                 });
         }
