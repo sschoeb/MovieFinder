@@ -10,10 +10,9 @@ namespace MovieFinder.iOS.Views
     {
         public override void ViewDidLoad()
         {
-			View = new UIView ();
-			View.BackgroundColor = UIColor.White;
+			View = new UIView {BackgroundColor = UIColor.White};
 
-			base.ViewDidLoad ();
+            base.ViewDidLoad ();
 
 			var textViewTitle = new UILabel(new RectangleF(10, 10, 300, 30));
 			textViewTitle.Text = "Title";

@@ -1,4 +1,4 @@
-using System.Collections.ObjectModel;
+using System.Collections.Generic;
 using System.Windows.Input;
 using Cirrious.MvvmCross.ViewModels;
 using MovieFinder.Core.Model;
@@ -35,8 +35,8 @@ namespace MovieFinder.Core.ViewModels
             }
         }
 
-        private ObservableCollection<Movie> _movies;
-        public ObservableCollection<Movie> Movies
+        private List<Movie> _movies;
+        public List<Movie> Movies
         {
             get { return _movies; }
             set { _movies = value; RaisePropertyChanged(() => Movies); }
@@ -49,7 +49,7 @@ namespace MovieFinder.Core.ViewModels
         {
             _rottenTomatoRestService.SearchMovies(Keyword, data =>
                 {
-                    Movies = new ObservableCollection<Movie>(data.movies);
+                    Movies = new List<Movie>(data.movies);
                 });
         }
     }
